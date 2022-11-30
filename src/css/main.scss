@@ -51,7 +51,7 @@ body {
 .card {
 	background: var(--clr-card-background);
 	border-radius: 0.25rem;
-	overflow: scroll;
+	overflow-y: auto;
 	display: grid;
 
 	@media screen and (min-width: $mediaMinWidth_desktop_sm) {
